@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <!-- <video src="midia/myvideo.mp4" width="500" controls></video> Pq não usamos esse método ? Por geramente temo que por mais de um formato de vídeo para o navegador que o usuário está usando reconhecer, então colocamos dessa forma a baixo -->
+
+    <video width="560" poster="imagens/pexels-pixabay-73910.jpg" controls>
+        <source src="midia/myvideo.mp4" type="video/mp4">
+        <source src="midia/MyvideoMP4.m4v" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução do vídeo em questão!</p>
+        <!--Assim a forma que o navegador reconhecer será a forma que ele vai abrir e carregaro o vídeo !-->
+    </video>
+
+    <h1>Colocando vídeo do Youtube</h1>
+    <!--Para colocar vídeos de ospedagem do youtube, basta clicar em compartilhar no vídeo e em "emcorporar" que ai ele  gera o cód para por no seu HTML-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B-tmqooXNEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

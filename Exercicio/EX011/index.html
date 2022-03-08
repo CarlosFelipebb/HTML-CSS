@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Imagem do tamanho pegueno a ser redimencionada caso a pagina for do tamanho de um celular-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png"><!--Imagem do meio a ser redimencionada caso a pagina for do temanho de um tablet/ipad -->
+        <img src="imagens/foto-g.png" alt="imagem flexível"> <!-- Imagem base-->
+    </picture>
+
+    <h1>Vamos aprender a reproduzir áudio em HTML5</h1>
+
+    <!-- <audio src="midia/PianoTrap.mp3" controls autoplay></audio> <!--dessa forma se não colocarmos o controls e só colocarmos o autoplay ele não vai como o navegador CHROME !!-->
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/PianoTrap.mp3" type="audio/mpeg">
+        <source src="midia/PianoTrap.occ" type="audio/occ">
+        <source src="midia/PianoTrap.wav" type="audio/wav">
+        <p>Infelizmente seu naveador não consegue reproduzir áudio.
+        <a href="midia/PianoTrap.mp3">Clique aqui para baixar o áudio em MP3</a></p>
+    </audio>
+</body>
+</html>

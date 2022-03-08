@@ -1,0 +1,87 @@
+@charset "utf8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+header{
+
+    background-image: linear-gradient(to bottom, #2FA866, #29794c );
+    color: white;
+    text-align: justify;
+}
+
+header >p{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+nav{
+    padding: 3px;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+h2{
+    font-family: idroid, sans-serif ;
+     text-align: left;
+   
+}
+main{
+    background-color: white;
+    border: 10px;
+    padding: 20px;
+    margin: 0px 92px 50px 50px;       
+}
+
+
+.titulo,.sub-titulo{
+
+    text-align:left;
+}
+
+.sub-titulo{
+    background-color: #94eebd;
+    text-align:left;
+}
+
+article{
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+article > img{
+   text-align:justify;
+}
+
+aside{
+background-color: #2FA866 ;
+}
+
+
+footer{
+    background-color: #2FA866;
+    background-image: linear-gradient(to bottom, #2FA866, #29794c );
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+
+}
+
+footer > p{
+    margin: 0px;
+}
