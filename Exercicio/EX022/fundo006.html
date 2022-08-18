@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
-            background-repeat: repeat;
-            background-size: cover;/*contain*/
-            
+            background-repeat: no-repeat;
+            background-size: cover;*/
+            /*contain*//* pode por a medida em %, deixar em branco que fica auto, e por essas variáveis*/
+            /*
+            background-attachment: fixed;*/
+            /*scroll - o papel de parede rola junto com a pag*/
+            /*fixed - só movimenta o conteúdo da pag*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid gray;
@@ -28,8 +38,13 @@
 <body>
     <main>
         <h1>Tesde de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rerum consequuntur atque error blanditiis fugit totam repudiandae officia, sint, id temporibus dolores alias! Magni nostrum totam, hic necessitatibus est quo!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro saepe ab, autem in repellat error eaque! Nihil libero doloribus labore dignissimos ab, alias doloremque maiores eligendi quas adipisci praesentium ex.               
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rerum consequuntur atque error blanditiis fugit totam repudiandae officia, sint, id temporibus dolores alias! Magni nostrum totam, hic necessitatibus est quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci in, ex laudantium ratione porro eveniet totam natus fuga molestiae ullam numquam ipsum quia reiciendis iste repellat dicta ea mollitia.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto iste quas reprehenderit debitis, voluptatibus nulla suscipit nemo expedita dignissimos itaque distinctio, a quia maxime aut sit repellat doloribus dolore unde? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, officia facere! Reiciendis porro vero sapiente magnam sit necessitatibus asperiores culpa. Saepe, quo vel impedit voluptates fugit quia! Distinctio, assumenda quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt placeat, blanditiis, quod quos autem recusandae optio eius earum exercitationem nisi delectus, quam facere reprehenderit nemo pariatur sit enim. Placeat, dicta.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro saepe ab, autem in repellat error eaque! Nihil libero doloribus labore dignissimos ab, alias doloremque maiores eligendi quas adipisci praesentium ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum at, repellat dolor quis, officiis dolores quam, ex dolorem quaerat debitis dignissimos distinctio a delectus. Consequatur sapiente magnam libero labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum iusto repudiandae unde recusandae eum quam omnis provident possimus a libero odio error dolorem laudantium est fugit, at tempore, nulla quos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt necessitatibus ducimus officiis, soluta esse ullam vitae! Aut provident omnis repellat tempora quidem est incidunt nihil commodi necessitatibus. Saepe, voluptas!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum iure placeat numquam voluptates, quis repellat eos facere quaerat tenetur velit rerum ipsam quos, voluptatem debitis hic dolorum unde consequatur dignissimos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam suscipit nam perspiciatis non magnam autem reprehenderit ipsam voluptas in, recusandae molestiae eum minima praesentium nesciunt et obcaecati eveniet qui deserunt.loreLorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rerum consequuntur atque error blanditiis fugit totam repudiandae officia, sint, id temporibus dolores alias! Magni nostrum totam, hic necessitatibus est quo!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro saepe ab, autem in repellat error eaque! Nihil libero doloribus labore dignissimos ab, alias doloremque maiores eligendi quas adipisci praesentium ex. Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum iure placeat numquam voluptates, quis repellat eos facere quaerat tenetur velit rerum ipsam quos, voluptatem debitis hic dolorum unde consequatur dignissimos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam suscipit nam perspiciatis non magnam autem reprehenderit ipsam voluptas in, recusandae molestiae eum minima praesentium nesciunt et obcaecati eveniet qui deserunt.loreLorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rerum consequuntur atque error blanditiis fugit totam repudiandae officia, sint, id temporibus dolores alias! Magni nostrum totam, hic necessitatibus est quo!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro saepe ab, autem in repellat error eaque! Nihil libero doloribus labore dignissimos ab, alias doloremque maiores eligendi quas adipisci praesentium ex. Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
     </main>
 </body>
